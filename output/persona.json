@@ -1,0 +1,37 @@
+{
+    "habits": [
+        {
+            "habit": "Talks about coffee",
+            "evidence": "coffee mentioned in conversations"
+        },
+        {
+            "habit": "Discusses sleep patterns",
+            "evidence": "sleep related messages found"
+        }
+    ],
+    "personal_facts": [
+        {
+            "fact": "Mentions college",
+            "evidence": "college keyword found"
+        },
+        {
+            "fact": "Talks about career or jobs",
+            "evidence": "job keyword found"
+        }
+    ],
+    "personality_traits": [
+        {
+            "trait": "Humorous",
+            "evidence": "laugh expressions detected"
+        },
+        {
+            "trait": "Polite",
+            "evidence": "frequent gratitude expressions"
+        }
+    ],
+    "communication_style": {
+        "average_words_per_message": 232.37,
+        "message_style": "Long Messages",
+        "total_messages": 11000
+    }
+}
