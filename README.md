@@ -11,9 +11,7 @@ The objective is to analyze long conversation histories and provide meaningful r
 # Live Demo
 ## Streamlit Application
 
-## Live Demo URL:
-
-https://personarag-conversation-analysis-ixjxuumkklowuoplpeg5cr.streamlit.app/
+Live Demo URL: https://personarag-conversation-analysis-ixjxuumkklowuoplpeg5cr.streamlit.app/
 
 ---
 
