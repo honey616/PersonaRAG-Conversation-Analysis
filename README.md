@@ -364,30 +364,6 @@ streamlit run app.py
 
 ---
 
-# Screenshots
-
-### Home
-
-![Home](screenshots/home.png)
-
-### Persona
-
-![Persona](screenshots/persona.png)
-
-### Topics
-
-![Topics](screenshots/topics.png)
-
-### Communication
-
-![Communication](screenshots/communication.png)
-
-### Habits
-
-![Habits](screenshots/habits.png)
-
----
-
 # Limitations
 
 * The provided dataset does not contain timestamps.
