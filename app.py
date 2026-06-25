@@ -1,5 +1,8 @@
 import streamlit as st
 from rag import answer_query
+from persona_drift import generate_persona_drift
+from intent_classifier import classify_intent
+from conflict_resolver import resolve_conflict
 
 # Page Configuration
 st.set_page_config(
@@ -7,58 +10,136 @@ st.set_page_config(
     layout="wide"
 )
 
-# Header
-st.title("PersonaRAG")
-st.subheader("Topic-Aware Conversation Analysis and User Persona Chatbot")
-
-st.write(
-    """
-    This system analyzes conversation history, topic checkpoints,
-    message summaries, and user persona information using a
-    Retrieval-Augmented Generation (RAG) approach.
-    """
+# Sidebar
+page = st.sidebar.selectbox(
+    "Select Module",
+    [
+        "RAG Chat",
+        "Persona Drift",
+        "Intent Classifier",
+        "Conflict Resolver"
+    ]
 )
 
-# Example Questions
-with st.expander("Example Questions"):
+# ==========================================
+# RAG CHAT
+# ==========================================
 
-    st.write("What kind of person is this user?")
-    st.write("What are the user's habits?")
-    st.write("How does this user communicate?")
-    st.write("What topics were discussed?")
-    st.write("Tell me about the user's personality traits.")
+if page == "RAG Chat":
 
-# User Input
-query = st.text_input("Ask a Question")
+    st.title("PersonaRAG")
+    st.subheader(
+        "Topic-Aware Conversation Analysis and User Persona Chatbot"
+    )
 
-# Process Query
-if query:
+    st.write(
+        """
+        This system analyzes conversation history,
+        topic checkpoints,
+        message summaries,
+        and user persona information
+        using a Retrieval-Augmented Generation (RAG) approach.
+        """
+    )
 
-    result = answer_query(query)
+    with st.expander("Example Questions"):
 
-    st.subheader("Response")
+        st.write("What kind of person is this user?")
+        st.write("What are the user's habits?")
+        st.write("How does this user communicate?")
+        st.write("What topics were discussed?")
+        st.write("Tell me about the user's personality traits?")
 
-    if isinstance(result, list):
+    query = st.text_input("Ask a Question")
 
-        for item in result:
+    if query:
 
-            if isinstance(item, dict):
+        result = answer_query(query)
 
-                st.json(item)
+        st.subheader("Response")
 
-            else:
+        if isinstance(result, list):
 
-                st.write(item)
+            for item in result:
 
-    elif isinstance(result, dict):
+                if isinstance(item, dict):
+                    st.json(item)
+
+                else:
+                    st.write(item)
+
+        elif isinstance(result, dict):
+
+            st.json(result)
+
+        else:
+
+            st.write(result)
+
+# ==========================================
+# PERSONA DRIFT
+# ==========================================
+
+elif page == "Persona Drift":
+
+    st.title("Adaptive Persona Engine")
+
+    st.write(
+        "Tracks mood, tone and trigger changes across conversation segments"
+    )
+
+    drift = generate_persona_drift()
+
+    st.json(drift)
+
+# ==========================================
+# INTENT CLASSIFIER
+# ==========================================
+
+elif page == "Intent Classifier":
+
+    st.title("Offline Intent Classifier")
+
+    st.write(
+        "Classifies messages into reminder, emotional-support, action-item, small-talk and unknown"
+    )
+
+    message = st.text_input("Enter a message")
+
+    if message:
+
+        intent = classify_intent(message)
+
+        st.success(
+            f"Detected Intent: {intent}"
+        )
+
+# ==========================================
+# CONFLICT RESOLVER
+# ==========================================
+
+elif page == "Conflict Resolver":
+
+    st.title("Conflict Resolution in RAG")
+
+    st.write(
+        "Search topic summaries and detect contradictory information"
+    )
+
+    keyword = st.text_input(
+        "Enter keyword (family, dog, college, music)"
+    )
+
+    if keyword:
+
+        result = resolve_conflict(keyword)
 
         st.json(result)
 
-    else:
+# ==========================================
+# FOOTER
+# ==========================================
 
-        st.write(result)
-
-# Footer
 st.markdown("---")
 
 st.caption(

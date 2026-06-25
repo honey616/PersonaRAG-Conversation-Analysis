@@ -1,0 +1,1909 @@
+[
+    {
+        "checkpoint": "Topic 1",
+        "message_range": "1 - 426",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "favorite"
+        ],
+        "drift": "Initial Persona"
+    },
+    {
+        "checkpoint": "Topic 2",
+        "message_range": "427 - 428",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "read",
+            "books",
+            "horror"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 3",
+        "message_range": "429 - 443",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 4",
+        "message_range": "444 - 460",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 5",
+        "message_range": "461 - 476",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 6",
+        "message_range": "477 - 477",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "family",
+            "movies",
+            "watch"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 7",
+        "message_range": "478 - 523",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "sounds"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 8",
+        "message_range": "524 - 527",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "sounds",
+            "food",
+            "glad"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 9",
+        "message_range": "528 - 552",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 10",
+        "message_range": "553 - 554",
+        "mood": "neutral",
+        "tone": "casual",
+        "trigger": [
+            "tacos",
+            "sounds",
+            "tortillas"
+        ],
+        "drift": "positive/neutral -> neutral/casual"
+    },
+    {
+        "checkpoint": "Topic 11",
+        "message_range": "555 - 1206",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "neutral/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 12",
+        "message_range": "1207 - 1207",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "well",
+            "baking",
+            "chocolate"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 13",
+        "message_range": "1208 - 1661",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 14",
+        "message_range": "1662 - 1662",
+        "mood": "emotional",
+        "tone": "neutral",
+        "trigger": [
+            "parakeet",
+            "glad",
+            "protect"
+        ],
+        "drift": "positive/neutral -> emotional/neutral"
+    },
+    {
+        "checkpoint": "Topic 15",
+        "message_range": "1663 - 1882",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "emotional/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 16",
+        "message_range": "1883 - 1883",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "think",
+            "ghosts",
+            "world"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 17",
+        "message_range": "1884 - 2041",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 18",
+        "message_range": "2042 - 2043",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "more",
+            "awesome"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 19",
+        "message_range": "2044 - 2074",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 20",
+        "message_range": "2075 - 2075",
+        "mood": "neutral",
+        "tone": "formal",
+        "trigger": [
+            "marketing",
+            "business",
+            "looking"
+        ],
+        "drift": "positive/neutral -> neutral/formal"
+    },
+    {
+        "checkpoint": "Topic 21",
+        "message_range": "2076 - 2689",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "neutral/formal -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 22",
+        "message_range": "2690 - 2691",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "garden",
+            "grow",
+            "family"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 23",
+        "message_range": "2692 - 2702",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "sounds"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 24",
+        "message_range": "2703 - 2728",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 25",
+        "message_range": "2729 - 2792",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 26",
+        "message_range": "2793 - 2797",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "music",
+            "thanks"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 27",
+        "message_range": "2798 - 2804",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "know",
+            "sounds"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 28",
+        "message_range": "2805 - 2878",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "general conversation"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 29",
+        "message_range": "2879 - 2883",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "write",
+            "some"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 30",
+        "message_range": "2884 - 3169",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 31",
+        "message_range": "3170 - 3170",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "hair",
+            "well",
+            "keep"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 32",
+        "message_range": "3171 - 3284",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 33",
+        "message_range": "3285 - 3285",
+        "mood": "neutral",
+        "tone": "casual",
+        "trigger": [
+            "videos",
+            "some",
+            "music"
+        ],
+        "drift": "positive/neutral -> neutral/casual"
+    },
+    {
+        "checkpoint": "Topic 34",
+        "message_range": "3286 - 4193",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "neutral/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 35",
+        "message_range": "4194 - 4197",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "general conversation"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 36",
+        "message_range": "4198 - 4360",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 37",
+        "message_range": "4361 - 4365",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 38",
+        "message_range": "4366 - 4379",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "games"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 39",
+        "message_range": "4380 - 4380",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "make",
+            "well",
+            "trying"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 40",
+        "message_range": "4381 - 4384",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "games",
+            "thanks",
+            "doing"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 41",
+        "message_range": "4385 - 4479",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 42",
+        "message_range": "4480 - 4483",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "music"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 43",
+        "message_range": "4484 - 4697",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 44",
+        "message_range": "4698 - 4700",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "amazing",
+            "favorite",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 45",
+        "message_range": "4701 - 4705",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "cook"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 46",
+        "message_range": "4706 - 4731",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "general conversation"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 47",
+        "message_range": "4732 - 4732",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "morning",
+            "always",
+            "need"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 48",
+        "message_range": "4733 - 4876",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 49",
+        "message_range": "4877 - 4877",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "through",
+            "able",
+            "find"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 50",
+        "message_range": "4878 - 5102",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 51",
+        "message_range": "5103 - 5120",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 52",
+        "message_range": "5121 - 5214",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 53",
+        "message_range": "5215 - 5215",
+        "mood": "emotional",
+        "tone": "neutral",
+        "trigger": [
+            "know",
+            "anxiety",
+            "trying"
+        ],
+        "drift": "positive/neutral -> emotional/neutral"
+    },
+    {
+        "checkpoint": "Topic 54",
+        "message_range": "5216 - 5231",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "emotional/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 55",
+        "message_range": "5232 - 5233",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "music",
+            "folk",
+            "favorite"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 56",
+        "message_range": "5234 - 5342",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 57",
+        "message_range": "5343 - 5344",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "trying",
+            "always",
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 58",
+        "message_range": "5345 - 5358",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "going"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 59",
+        "message_range": "5359 - 5360",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "shrimp",
+            "work"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 60",
+        "message_range": "5361 - 5374",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 61",
+        "message_range": "5375 - 5425",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 62",
+        "message_range": "5426 - 5428",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 63",
+        "message_range": "5429 - 5458",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 64",
+        "message_range": "5459 - 5463",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "play",
+            "favorite",
+            "people"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 65",
+        "message_range": "5464 - 5700",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 66",
+        "message_range": "5701 - 5703",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "going"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 67",
+        "message_range": "5704 - 5832",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "general conversation"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 68",
+        "message_range": "5833 - 5833",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "acting",
+            "help",
+            "find"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 69",
+        "message_range": "5834 - 6085",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 70",
+        "message_range": "6086 - 6086",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "played",
+            "beatles",
+            "history"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 71",
+        "message_range": "6087 - 6222",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 72",
+        "message_range": "6223 - 6224",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "place",
+            "looking",
+            "always"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 73",
+        "message_range": "6225 - 6344",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 74",
+        "message_range": "6345 - 6350",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 75",
+        "message_range": "6351 - 6383",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "general conversation"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 76",
+        "message_range": "6384 - 6406",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "doing",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 77",
+        "message_range": "6407 - 6409",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "comedy",
+            "thanks",
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 78",
+        "message_range": "6410 - 6451",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 79",
+        "message_range": "6452 - 6452",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "music",
+            "country",
+            "europe"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 80",
+        "message_range": "6453 - 6479",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 81",
+        "message_range": "6480 - 6480",
+        "mood": "neutral",
+        "tone": "casual",
+        "trigger": [
+            "zumba",
+            "music",
+            "listen"
+        ],
+        "drift": "positive/neutral -> neutral/casual"
+    },
+    {
+        "checkpoint": "Topic 82",
+        "message_range": "6481 - 6555",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "neutral/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 83",
+        "message_range": "6556 - 6559",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 84",
+        "message_range": "6560 - 6597",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 85",
+        "message_range": "6598 - 6600",
+        "mood": "positive",
+        "tone": "formal",
+        "trigger": [
+            "marketing",
+            "visit"
+        ],
+        "drift": "positive/neutral -> positive/formal"
+    },
+    {
+        "checkpoint": "Topic 86",
+        "message_range": "6601 - 6653",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "doing",
+            "sounds"
+        ],
+        "drift": "positive/formal -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 87",
+        "message_range": "6654 - 6654",
+        "mood": "emotional",
+        "tone": "casual",
+        "trigger": [
+            "family",
+            "going",
+            "thanks"
+        ],
+        "drift": "positive/neutral -> emotional/casual"
+    },
+    {
+        "checkpoint": "Topic 88",
+        "message_range": "6655 - 6776",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "emotional/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 89",
+        "message_range": "6777 - 6782",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 90",
+        "message_range": "6783 - 6802",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "going",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 91",
+        "message_range": "6803 - 6815",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 92",
+        "message_range": "6816 - 6860",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 93",
+        "message_range": "6861 - 6861",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "make",
+            "recipes"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 94",
+        "message_range": "6862 - 6991",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 95",
+        "message_range": "6992 - 6996",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "beach",
+            "will",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 96",
+        "message_range": "6997 - 7297",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 97",
+        "message_range": "7298 - 7309",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 98",
+        "message_range": "7310 - 7430",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 99",
+        "message_range": "7431 - 7431",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "garden",
+            "doing",
+            "thanks"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 100",
+        "message_range": "7432 - 7521",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 101",
+        "message_range": "7522 - 7523",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "some"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 102",
+        "message_range": "7524 - 7592",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 103",
+        "message_range": "7593 - 7597",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "nice",
+            "write"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 104",
+        "message_range": "7598 - 7598",
+        "mood": "emotional",
+        "tone": "neutral",
+        "trigger": [
+            "cancer",
+            "breast",
+            "hear"
+        ],
+        "drift": "positive/neutral -> emotional/neutral"
+    },
+    {
+        "checkpoint": "Topic 105",
+        "message_range": "7599 - 7905",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "emotional/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 106",
+        "message_range": "7906 - 7939",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 107",
+        "message_range": "7940 - 7955",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "name"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 108",
+        "message_range": "7956 - 7999",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 109",
+        "message_range": "8000 - 8006",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "going"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 110",
+        "message_range": "8007 - 8008",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "kids",
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 111",
+        "message_range": "8009 - 8021",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "doing"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 112",
+        "message_range": "8022 - 8118",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 113",
+        "message_range": "8119 - 8125",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "read"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 114",
+        "message_range": "8126 - 8164",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 115",
+        "message_range": "8165 - 8167",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "fashion",
+            "always",
+            "book"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 116",
+        "message_range": "8168 - 8196",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 117",
+        "message_range": "8197 - 8202",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 118",
+        "message_range": "8203 - 8203",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "watermelon",
+            "baking",
+            "going"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 119",
+        "message_range": "8204 - 8220",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "read",
+            "always"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 120",
+        "message_range": "8221 - 8221",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "doing",
+            "thank",
+            "trying"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 121",
+        "message_range": "8222 - 8347",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "sounds"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 122",
+        "message_range": "8348 - 8354",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "going",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 123",
+        "message_range": "8355 - 8664",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 124",
+        "message_range": "8665 - 8666",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "spend"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 125",
+        "message_range": "8667 - 8778",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 126",
+        "message_range": "8779 - 8783",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "know"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 127",
+        "message_range": "8784 - 8859",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 128",
+        "message_range": "8860 - 8899",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 129",
+        "message_range": "8900 - 8901",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "glad",
+            "read"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 130",
+        "message_range": "8902 - 8906",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 131",
+        "message_range": "8907 - 8907",
+        "mood": "emotional",
+        "tone": "formal",
+        "trigger": [
+            "feedback",
+            "more",
+            "help"
+        ],
+        "drift": "positive/neutral -> emotional/formal"
+    },
+    {
+        "checkpoint": "Topic 132",
+        "message_range": "8908 - 8945",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "emotional/formal -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 133",
+        "message_range": "8946 - 8946",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "book",
+            "into",
+            "read"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 134",
+        "message_range": "8947 - 8949",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "make",
+            "doing",
+            "cosplay"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 135",
+        "message_range": "8950 - 8950",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "curly",
+            "hair",
+            "always"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 136",
+        "message_range": "8951 - 9299",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 137",
+        "message_range": "9300 - 9300",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "help",
+            "nutrition",
+            "improve"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 138",
+        "message_range": "9301 - 9367",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 139",
+        "message_range": "9368 - 9368",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "grill",
+            "salmon",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 140",
+        "message_range": "9369 - 9380",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 141",
+        "message_range": "9381 - 9382",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "those",
+            "herbs",
+            "some"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 142",
+        "message_range": "9383 - 9405",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 143",
+        "message_range": "9406 - 9418",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 144",
+        "message_range": "9419 - 9447",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 145",
+        "message_range": "9448 - 9616",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 146",
+        "message_range": "9617 - 9640",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 147",
+        "message_range": "9641 - 9642",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "larp",
+            "play",
+            "glad"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 148",
+        "message_range": "9643 - 10103",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 149",
+        "message_range": "10104 - 10104",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "season",
+            "right",
+            "know"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 150",
+        "message_range": "10105 - 10151",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 151",
+        "message_range": "10152 - 10156",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "thanks",
+            "favorite",
+            "music"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 152",
+        "message_range": "10157 - 10313",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 153",
+        "message_range": "10314 - 10314",
+        "mood": "neutral",
+        "tone": "neutral",
+        "trigger": [
+            "going",
+            "thanks",
+            "through"
+        ],
+        "drift": "positive/neutral -> neutral/neutral"
+    },
+    {
+        "checkpoint": "Topic 154",
+        "message_range": "10315 - 10404",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "thanks"
+        ],
+        "drift": "neutral/neutral -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 155",
+        "message_range": "10405 - 10409",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 156",
+        "message_range": "10410 - 10413",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "awesome",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 157",
+        "message_range": "10414 - 10414",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "books",
+            "read",
+            "beach"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 158",
+        "message_range": "10415 - 10477",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 159",
+        "message_range": "10478 - 10480",
+        "mood": "positive",
+        "tone": "casual",
+        "trigger": [
+            "some",
+            "music",
+            "iguana"
+        ],
+        "drift": "positive/neutral -> positive/casual"
+    },
+    {
+        "checkpoint": "Topic 160",
+        "message_range": "10481 - 10561",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "positive/casual -> positive/neutral"
+    },
+    {
+        "checkpoint": "Topic 161",
+        "message_range": "10562 - 10569",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "general conversation"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 162",
+        "message_range": "10570 - 10607",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "going"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 163",
+        "message_range": "10608 - 10616",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "doing"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 164",
+        "message_range": "10617 - 10627",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "play"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 165",
+        "message_range": "10628 - 10688",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite",
+            "thanks"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 166",
+        "message_range": "10689 - 10732",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "always"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 167",
+        "message_range": "10733 - 10751",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "doing"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 168",
+        "message_range": "10752 - 10752",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "artichoke",
+            "pasta",
+            "cats"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 169",
+        "message_range": "10753 - 10938",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 170",
+        "message_range": "10939 - 10942",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "sounds",
+            "much"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 171",
+        "message_range": "10943 - 10975",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "thanks",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 172",
+        "message_range": "10976 - 10977",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "doing",
+            "plants"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 173",
+        "message_range": "10978 - 10991",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "favorite"
+        ],
+        "drift": "No Significant Drift"
+    },
+    {
+        "checkpoint": "Topic 174",
+        "message_range": "10992 - 11000",
+        "mood": "positive",
+        "tone": "neutral",
+        "trigger": [
+            "doing",
+            "sounds"
+        ],
+        "drift": "No Significant Drift"
+    }
+]
