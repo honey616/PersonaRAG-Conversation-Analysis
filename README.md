@@ -17,7 +17,11 @@ This project was developed as part of the AI/ML Engineer Internship Assignment.
 https://personarag-conversation-analysis-ixjxuumkklowuoplpeg5cr.streamlit.app/
 
 ---
+# System Design PDF
 
+https://1drv.ms/w/c/64802506e3436956/IQBUrW6ywn1wQ6saoRrVlVAsAQkLjbw4aYV6soVxkbNWm9M?e=mg1AJL
+
+---
 # Features
 
 ## Round 1 Features
