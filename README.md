@@ -2,61 +2,64 @@
 
 ## Project Overview
 
-PersonaRAG is an offline conversation intelligence system that analyzes long conversation histories and builds a Retrieval-Augmented Generation (RAG) based chatbot.
+PersonaRAG is an offline conversation intelligence system that analyzes long conversation histories and builds a Retrieval-Augmented Generation (RAG) chatbot.
 
-The system performs chronological topic detection, persona extraction, adaptive persona drift detection, offline intent classification, conflict-aware retrieval, and provides an interactive Streamlit interface.
+The system processes conversations chronologically, detects topic changes, extracts user personas, tracks persona drift over time, classifies user intent offline, performs conflict-aware retrieval, and provides an interactive Streamlit interface for querying conversation history.
 
-This project was developed as part of the AI/ML Engineer Internship Assignment.
+This project was developed as part of the **AI/ML Engineer Internship Assignment**.
 
 ---
 
 # Live Demo
 
-**Streamlit Application**
+### Streamlit Application
 
 https://personarag-conversation-analysis-ixjxuumkklowuoplpeg5cr.streamlit.app/
 
 ---
-# System Design PDF
+
+# System Design Document
 
 https://1drv.ms/w/c/64802506e3436956/IQBUrW6ywn1wQ6saoRrVlVAsAQkLjbw4aYV6soVxkbNWm9M?e=mg1AJL
 
 ---
+
 # Features
 
-## Round 1 Features
+## Round 1
 
 * Chronological conversation processing
+* Topic detection
 * Topic checkpoint generation
 * 100-message checkpoints
 * Persona extraction
 * Topic-aware RAG retrieval
 * Streamlit chatbot
-* JSON outputs
+* JSON output generation
 
 ---
 
-## Round 2 Features
+## Round 2
 
 ### Adaptive Persona Engine
 
-* Detects persona drift across conversation checkpoints
+* Detects persona drift across topic checkpoints
 * Detects mood changes
 * Detects tone changes
-* Identifies trigger (topic/event/person)
+* Identifies conversation triggers
 * Generates persona drift timeline
 
-Output:
+**Output**
 
-* persona_drift.json
+* `persona_drift.json`
 
 ---
 
 ### Offline Intent Classifier
 
-Offline lightweight classifier using Scikit-learn.
+A lightweight offline classifier built using **Scikit-learn**.
 
-Supported intents:
+**Supported Intents**
 
 * Reminder
 * Emotional Support
@@ -64,13 +67,13 @@ Supported intents:
 * Small Talk
 * Unknown
 
-Features
+**Features**
 
-* Runs completely offline
+* Completely offline
 * No OpenAI API
 * No Gemini API
 * CPU inference
-* Lightweight model
+* Lightweight and fast
 
 ---
 
@@ -78,58 +81,42 @@ Features
 
 The retrieval pipeline supports conflict-aware retrieval.
 
-Features
+**Features**
 
 * Retrieves multiple relevant checkpoints
 * Ranks checkpoints using recency
-* Uses emotional weight while ranking
-* Detects contradictions
-* Generates one merged coherent answer
-
----
-
-### System Design
-
-The project includes a one-page system design describing:
-
-* On-device storage
-* Future cloud synchronization
-* Conflict resolution strategy
-* Overall architecture
+* Uses emotional weight for ranking
+* Detects contradictory information
+* Produces one merged coherent response
 
 ---
 
 # Workflow
 
+```text
 Conversation CSV
-
-↓
-
+        │
+        ▼
 Topic Detection
-
-↓
-
+        │
+        ▼
 Topic Summaries
-
-↓
-
+        │
+        ▼
 Persona Extraction
-
-↓
-
+        │
+        ▼
 Adaptive Persona Engine
-
-↓
-
+        │
+        ▼
 Intent Classification
-
-↓
-
+        │
+        ▼
 Conflict Resolution
-
-↓
-
+        │
+        ▼
 Streamlit Chatbot
+```
 
 ---
 
@@ -137,13 +124,11 @@ Streamlit Chatbot
 
 Messages are processed chronologically.
 
-SentenceTransformer (all-MiniLM-L6-v2) embeddings are generated.
-
-Cosine similarity is used to detect topic changes.
+SentenceTransformer (`all-MiniLM-L6-v2`) embeddings are generated and cosine similarity is used to detect topic changes.
 
 Whenever similarity falls below a threshold:
 
-* New topic checkpoint is created
+* A new topic checkpoint is created
 * Message range is stored
 * Topic summary is generated
 
@@ -191,63 +176,72 @@ The Persona Engine analyzes topic checkpoints and generates:
 * Trigger
 * Persona Drift Timeline
 
-Example
+### Example
 
+```text
 Topic 20
 
-Mood → Positive
+Mood  : Positive
+Tone  : Casual
 
-Tone → Casual
-
-↓
+        ↓
 
 Topic 53
 
-Mood → Emotional
+Mood    : Emotional
+Tone    : Neutral
+Trigger : Anxiety
 
-Tone → Neutral
-
-Trigger → Anxiety
-
-↓
+        ↓
 
 Topic 87
 
-Mood → Emotional
-
-Tone → Casual
-
-Trigger → Family
+Mood    : Emotional
+Tone    : Casual
+Trigger : Family
+```
 
 ---
 
 # Offline Intent Classifier
 
-Example
+### Example
 
-Input:
+**Input**
 
+```text
 I feel sad
+```
 
-Output:
+**Output**
 
+```text
 Emotional Support
+```
 
-Input:
+**Input**
 
+```text
 Remind me tomorrow
+```
 
-Output:
+**Output**
 
+```text
 Reminder
+```
 
-Input:
+**Input**
 
+```text
 Submit the assignment today
+```
 
-Output:
+**Output**
 
+```text
 Action Item
+```
 
 ---
 
@@ -255,26 +249,26 @@ Action Item
 
 The resolver:
 
-1. Retrieves relevant topic checkpoints
+1. Retrieves relevant topic checkpoints.
+2. Ranks them using:
 
-2. Ranks them using
-
-* Recency
-* Emotional Weight
-
-3. Detects contradictions
-
-4. Returns one merged response
+   * Recency
+   * Emotional Weight
+3. Detects contradictions.
+4. Returns one merged response.
 
 ---
 
 # Output Files
 
-* messages.json
-* topic_summaries.json
-* checkpoints.json
-* persona.json
-* persona_drift.json
+```text
+output/
+├── messages.json
+├── topic_summaries.json
+├── checkpoints.json
+├── persona.json
+└── persona_drift.json
+```
 
 ---
 
@@ -299,51 +293,39 @@ The resolver:
 
 # Project Structure
 
+```text
 KaStack_Assignment/
-
+│
 ├── app.py
-
 ├── rag.py
-
 ├── topic_detection.py
-
 ├── topic_checkpoints.py
-
 ├── checkpoints.py
-
 ├── persona_builder.py
-
 ├── persona_drift.py
-
 ├── intent_classifier.py
-
 ├── conflict_resolver.py
-
 ├── requirements.txt
-
 ├── README.md
-
-├── System_Design_Document_PersonaRAG.pdf
-
+├── .gitignore
 │
-
 ├── data/
-
-│ └── conversations.csv
-
+│   └── conversations.csv
 │
-
 ├── output/
-
-│ ├── messages.json
-
-│ ├── topic_summaries.json
-
-│ ├── checkpoints.json
-
-│ ├── persona.json
-
-│ └── persona_drift.json
+│   ├── messages.json
+│   ├── topic_summaries.json
+│   ├── checkpoints.json
+│   ├── persona.json
+│   └── persona_drift.json
+│
+└── screenshots/
+    ├── home.png
+    ├── persona.png
+    ├── topics.png
+    ├── communication.png
+    └── habits.png
+```
 
 ---
 
@@ -359,22 +341,22 @@ pip install -r requirements.txt
 
 ```bash
 python topic_detection.py
-
 python topic_checkpoints.py
-
 python checkpoints.py
-
 python persona_builder.py
+python persona_drift.py
+python intent_classifier.py
 
 streamlit run app.py
 ```
 
 ---
 
-# Technologies
+# Technologies Used
 
 * Python
 * Pandas
+* NumPy
 * SentenceTransformers
 * Scikit-learn
 * Streamlit
@@ -382,30 +364,53 @@ streamlit run app.py
 
 ---
 
+# Screenshots
+
+### Home
+
+![Home](screenshots/home.png)
+
+### Persona
+
+![Persona](screenshots/persona.png)
+
+### Topics
+
+![Topics](screenshots/topics.png)
+
+### Communication
+
+![Communication](screenshots/communication.png)
+
+### Habits
+
+![Habits](screenshots/habits.png)
+
+---
+
 # Limitations
 
-The provided dataset does not contain timestamps.
-
-Therefore, topic checkpoints are treated as temporal segments while detecting persona drift.
+* The provided dataset does not contain timestamps.
+* Therefore, topic checkpoints are treated as temporal segments while detecting persona drift.
 
 ---
 
 # Future Improvements
 
 * Cloud synchronization
-* Vector database
-* Better intent classifier
-* Real-time synchronization
+* Vector database integration
+* Improved intent classifier
+* Real-time conversation synchronization
 * LLM-based persona generation
 
 ---
 
 # Key Highlights
 
-* Processed 11,000+ messages
-* Generated 174 topic checkpoints
-* Built an Adaptive Persona Engine
-* Built an Offline Intent Classifier
-* Implemented Conflict Resolution in RAG
-* Developed a complete Streamlit application
-* Privacy-first offline architecture
+* Processed **11,000+** conversation messages.
+* Generated **174** topic checkpoints.
+* Built an **Adaptive Persona Engine**.
+* Developed an **Offline Intent Classifier**.
+* Implemented **Conflict-Aware RAG Retrieval**.
+* Created a complete **Streamlit chatbot**.
+* Designed a **privacy-first offline architecture**.
